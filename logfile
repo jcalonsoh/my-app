@@ -1,0 +1,74 @@
+2018-05-23 22:24:09.034 -04 [2439] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-23 22:24:09.034 -04 [2439] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-23 22:24:09.036 -04 [2439] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-23 22:24:09.054 -04 [2440] LOG:  database system was shut down at 2018-05-23 22:24:01 -04
+2018-05-23 22:24:09.062 -04 [2439] LOG:  database system is ready to accept connections
+2018-05-23 22:24:14.904 -04 [2461] FATAL:  role "postgres" does not exist
+2018-05-23 22:24:21.536 -04 [2439] LOG:  received fast shutdown request
+2018-05-23 22:24:21.536 -04 [2439] LOG:  aborting any active transactions
+2018-05-23 22:24:21.537 -04 [2439] LOG:  worker process: logical replication launcher (PID 2446) exited with exit code 1
+2018-05-23 22:24:21.537 -04 [2441] LOG:  shutting down
+2018-05-23 22:24:21.544 -04 [2439] LOG:  database system is shut down
+2018-05-23 22:44:02.729 -04 [4617] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-23 22:44:02.729 -04 [4617] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-23 22:44:02.733 -04 [4617] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-23 22:44:02.752 -04 [4618] LOG:  database system was shut down at 2018-05-23 22:43:54 -04
+2018-05-23 22:44:02.757 -04 [4617] LOG:  database system is ready to accept connections
+2018-05-23 22:44:30.008 -04 [4695] ERROR:  permission denied to create database
+2018-05-23 22:44:30.008 -04 [4695] STATEMENT:  CREATE DATABASE "my_app_dev" ENCODING 'UTF8'
+2018-05-24 20:37:43.590 -04 [47705] ERROR:  permission denied to create database
+2018-05-24 20:37:43.590 -04 [47705] STATEMENT:  CREATE DATABASE "my_app_dev" ENCODING 'UTF8'
+2018-05-24 20:39:08.171 -04 [47826] ERROR:  role "postgres" already exists
+2018-05-24 20:39:08.171 -04 [47826] STATEMENT:  CREATE ROLE postgres PASSWORD 'md53175bce1d3201d16594cebf9d7eb3f9d' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+2018-05-24 21:26:43.642 -04 [52394] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.642 -04 [52396] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.643 -04 [52401] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.643 -04 [52397] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.644 -04 [52393] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.645 -04 [52400] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.645 -04 [52395] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.646 -04 [52399] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.646 -04 [52398] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.648 -04 [52402] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.649 -04 [52403] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.650 -04 [52404] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.652 -04 [52405] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.652 -04 [52406] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:43.654 -04 [52407] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:44.992 -04 [52410] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.112 -04 [52411] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.172 -04 [52412] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.365 -04 [52413] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.440 -04 [52414] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.489 -04 [52415] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.497 -04 [52416] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.507 -04 [52417] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.693 -04 [52418] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.829 -04 [52419] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:45.878 -04 [52420] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:46.075 -04 [52421] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:46.170 -04 [52424] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:46.189 -04 [52425] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:46.608 -04 [52426] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:47.122 -04 [52427] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:47.228 -04 [52428] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:47.746 -04 [52429] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:48.048 -04 [52430] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:48.175 -04 [52433] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:48.315 -04 [52434] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:48.999 -04 [52435] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:49.043 -04 [52436] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:49.420 -04 [52437] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:49.565 -04 [52438] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:50.124 -04 [52441] FATAL:  database "my_app_prod" does not exist
+2018-05-24 21:26:50.510 -04 [52443] FATAL:  database "my_app_prod" does not exist
+2018-05-25 00:31:40.473 -04 [63892] ERROR:  database "my_app_test" already exists
+2018-05-25 00:31:40.473 -04 [63892] STATEMENT:  CREATE DATABASE "my_app_test" ENCODING 'UTF8'
+2018-05-25 00:35:35.881 -04 [64270] ERROR:  database "my_app_test" already exists
+2018-05-25 00:35:35.881 -04 [64270] STATEMENT:  CREATE DATABASE "my_app_test" ENCODING 'UTF8'
+2018-05-26 21:38:46.618 -04 [35684] ERROR:  database "my_app_test" already exists
+2018-05-26 21:38:46.618 -04 [35684] STATEMENT:  CREATE DATABASE "my_app_test" ENCODING 'UTF8'
+2018-05-26 21:57:49.826 -04 [37163] ERROR:  database "my_app_test" already exists
+2018-05-26 21:57:49.826 -04 [37163] STATEMENT:  CREATE DATABASE "my_app_test" ENCODING 'UTF8'
+2018-05-26 21:59:53.437 -04 [37356] ERROR:  database "my_app_test" already exists
+2018-05-26 21:59:53.437 -04 [37356] STATEMENT:  CREATE DATABASE "my_app_test" ENCODING 'UTF8'
